@@ -30,7 +30,7 @@ public class MiniWordleGame {
         System.out.println("You have " + MAX_ATTEMPTS + " guesses.");
 
         Random random = new Random();
-        String correctWord = WORDS[random.nextInt(WORDS.length)]; // Picks a random word from the words array
+        String correctWord = wordList[random.nextInt(wordList.length)]; // Picks a random word from the wordList array
 
         Scanner scanner = new Scanner(System.in);
 
