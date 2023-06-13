@@ -8,7 +8,7 @@
 import java.util.*;
 
 public class MiniWordleGame {
-    private static final String[] WORDS = { // All the possible answers
+    private static final String[] wordList = { // All the possible answers
         "apple", "aisle", "bread", "blend", "chair", "click", "dance", "drive", "earth", "elite", "flame", "fable",
         "ghost", "giant", "house", "happy", "image", "ivory", "jelly", "juice", "knees", "known", "light", "laser",
         "magic", "movie", "noise", "nylon", "oasis", "onion", "party", "piano", "quiet", "quilt", "round", "radar",
